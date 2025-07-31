@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~mEswkb4Z#H1ie1WqCe_bntWAZTIAYFW_J2o92TsMZH3fx7jUxjE4",
+SESSION_ID: process.env.SESSION_ID || "lucky~eNEXxDrY#-66Udih7KOqTKw3JanuvCbhMDpOOLtIW0hAvENx_HKg",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "LUCKY-XD",
+BOT_NAME: process.env.BOT_NAME || "┼ 𝗗 𝗔 𝗗 𝗔⏤⃝🔥🫦💦",
 // add bot name here for menu
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -74,7 +74,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 OWNER_NAME: process.env.OWNER_NAME || "┼ 𝗗 𝗔 𝗗 𝗔⏤⃝🔥🫦💦",
 // add bot owner name
 
-              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+              DESCRIPTION: process.env.DESCRIPTION || "*© Powered By ┼ 𝗗 𝗔 𝗗 𝗔⏤⃝🔥🫦💦*",
 // add bot owner name    
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
@@ -117,7 +117,9 @@ OWNER_NAME: process.env.OWNER_NAME || "┼ 𝗗 𝗔 𝗗 𝗔⏤⃝🔥🫦💦
 
       AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
-
+      GOOD_BYE: process.env.GOOD_BYE || "false"
+//make it false if want off good bye
+          
 version: process.env.version || "0.0.9",
 
 };
